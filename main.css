@@ -152,6 +152,7 @@ nav a:hover {
     display: block;
 }
 
+
 @media screen and (min-width: 970px) {
     .nav-toggle-label {
         display: none;
@@ -223,6 +224,7 @@ nav a:hover {
         transform: scale(1,1);
     }
 }
+
 
 .dropdown .dropbtn {
     border: none;
@@ -316,13 +318,9 @@ h5 {
 }
 
 .category {
+    display: block;
     text-align: center;
     border: 1px solid red;
-}
-
-.category-link {
-    position: relative;
-    bottom: 100px;
 }
 
 /* .category-link {
@@ -432,3 +430,90 @@ html,body {
     margin: 0;
 }
 
+.form {
+    width: 100%;
+    border: 1px solid red;
+}
+
+.navn {
+    font-family: futura-pt;
+    font-weight: 300;
+    font-size: 1.375rem;
+    line-height: 1.2;
+    text-align: left;
+    width: 100%;
+    /* max-width: 600px; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 3px solid var(--clr-neutral-300);
+    background-color:var(--clr-neutral-100);
+}
+
+.mail {
+    font-family: futura-pt;
+    font-weight: 300;
+    font-size: 1.375rem;
+    line-height: 1.2;
+    text-align: left;
+    width: 100%;
+    /* max-width: 600px; */
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 3px solid var(--clr-neutral-300);
+    background-color:var(--clr-neutral-100);
+}
+
+.besked {
+    font-family: futura-pt;
+    font-weight: 300;
+    font-size: 1.375rem;
+    line-height: 1.2;
+    text-align: left;
+    width: 100%;
+    /* max-width: 600px; */
+    margin-top: 5px;
+    border: 3px solid var(--clr-neutral-300);
+    background-color:var(--clr-neutral-100);
+}
+
+.send {
+    font-family: futura-pt;
+    font-weight: 300;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    display: inline;
+    color: var(--clr-primary-900);
+    margin-top: 10px;
+    background-color: var(--clr-primary-200);
+    border: 3px solid var(--clr-primary-200);
+    height: 45px;
+    width: 160px;
+}
+
+.send:hover {
+    border: 1px solid var(--clr-primary-900);
+    font-weight: bolder;
+}
+
+.kontakt-knap {
+    font-family: futura-pt;
+    font-weight: 300;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    display: inline;
+    color: var(--clr-primary-900);
+    margin-top: 15px;
+    background-color: var(--clr-primary-200);
+    border: 3px solid var(--clr-primary-200);
+    height: 45px;
+    width: 160px;
+}
+
+.kontakt-knap:hover {
+    border: 1px solid var(--clr-primary-900);
+    font-weight: bolder;
+}

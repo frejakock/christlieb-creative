@@ -51,11 +51,9 @@
             <div class="split centered">
                 <div class="category">
                     <img src="images/400x320.jpg" alt="">
-                  
-                        <h4 class="category-link">
-                            <a href="video.html">Videoproduktion</a>
-                        </h4>
-                   
+                    <div>
+                        <h4><a href="video.html">Videoproduktion</a></h4>
+                    </div>    
                 </div>
 
                 <div class="category">
@@ -89,6 +87,7 @@
                         </div>
                     <p>Mit navn er Freja Christlieb og jeg er en 22-årig multimediedesign-studerende. Jeg har altid været fascineret af det visuelle og at fange smukke, stemningsfyldte motiver med et kamera. Det har der været rig mulighed for i den smukke natur på Ærø, hvor jeg er opvokset.
                     Nu brænder jeg for at hjælpe små og mindre virksomheder med foto, video og grafisk opsætning.</p> <p> <br> Skal jeg hjælpe dig og din virksomhed?</p>
+                    <button class="kontakt-knap">Kontakt mig</button>
                 </div>
             </div>
         </div>
@@ -126,7 +125,19 @@
                     <p>freja@koloro.dk</p>
                 </div>
                 <div>
-                    <p> En kontakformular</p>
+                    <form class="form">
+                        <p>Dit navn*</p>
+                        <input class="navn" type="text" name="navn" placeholder="Navn">
+                        <br>
+                        <p>Din e-mail*</p>
+                        <input class="mail" type="text" name="mail" placeholder="Mail">
+                        <br>
+                        <p>Besked</p>
+                        <textarea class="besked" type="message" name="besked" placeholder="Din besked"></textarea>
+                        <br>
+                        <input class="send" type="submit" name="send" value="send besked">
+
+                    </form>
                 </div>
             </div>
         </div>
