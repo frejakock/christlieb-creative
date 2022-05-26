@@ -528,3 +528,33 @@ footer {
     color: var(--clr-primary-200);
     line-height: 3rem;
 }
+
+.image-side-container {
+    /* max-width: 1200px; */
+    max-width: 95%;
+    margin: 20px auto;
+    background-color: var(--clr-neutral-100);
+}
+
+@media (min-width: 1270px) {
+    .image-side-container {
+        /* max-width: 95%; */
+        max-width: 1200px;
+        margin: 20px auto;
+    }
+
+}
+
+.image-side-container .image-container {
+    columns: 3 250px;
+    gap: 15px;
+}
+
+.image-side-container .image-container img {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.foto {
+    background-color: var(--clr-neutral-100);
+}
