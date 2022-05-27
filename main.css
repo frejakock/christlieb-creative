@@ -328,6 +328,9 @@ h5 {
     text-align: center;
 }
 
+.beskrivelse {
+    margin-bottom: .5em;
+}
 
 
 img {
@@ -343,7 +346,6 @@ section {
 .container {
     margin-inline: auto;
     max-width: 1200px;
-    width: (90%, 70.5rem);
 }
 
 section,
@@ -417,6 +419,23 @@ img {
     color: var(--clr-primary-900);
 
 }
+
+.bg-video {
+    padding-bottom: 0;
+}
+
+#slut {
+    padding-bottom: 2em;
+}
+
+#flyer {
+    padding-bottom: .5rem;
+}
+
+#flyer2 {
+    padding-top: .5rem;
+}
+
 
 .bg-light h3 {
     color: var(--clr-primary-400);
